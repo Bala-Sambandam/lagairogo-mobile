@@ -48,8 +48,8 @@ def predict():
 
 	body = str.encode(json.dumps(data))
 	print(data)
-	url = 'https://ussouthcentral.services.azureml.net/workspaces/0cd34c727b2b47238ff7b48522edfe7d/services/1f945513892241e49b08ee98d1629378/execute?api-version=2.0&format=swagger'
-	api_key = 'GQk9fDrbqWXw/GHLblOQIIQXAEngbJpl8XdbZ2n0QLozRmuHH72DU1wY4RGXpoQrcWdjXPPaTDAnyYKnjADNHQ==' # Replace this with the API key for the web service
+	url = 'https://ussouthcentral.services.azureml.net/workspaces/27fa7af1bee14f9f989bb915b62a0642/services/6a89ea1c327f40e681701bc7377526e3/execute?api-version=2.0&format=swagger'
+	api_key = 'YTdzOYwyRjBc8TFBFIgNpUTk3IaPBvWJ48vNkeMZTX+og8b+X71TUo/4yU9TJC6ODiXhklagEftgpCVOMIiubg==' # Replace this with the API key for the web service
 	headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key)}
 
 	#------------python2 code----------
